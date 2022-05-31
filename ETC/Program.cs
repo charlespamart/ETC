@@ -42,7 +42,7 @@ namespace ETC
 
                 var shouldIncludeCode = false;
                 var codeToInclude = new StringBuilder();
-                string entityName = string.Empty;
+                var entityName = string.Empty;
                 var isInsideModelBuilder = false;
                 foreach (var line in lines)
                 {

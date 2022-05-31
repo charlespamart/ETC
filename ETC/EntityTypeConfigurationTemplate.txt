@@ -1,0 +1,14 @@
+﻿using 001_MODEL_NAMESPACE;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace 002_CONFIGURATION_NAMESPACE
+{
+    public class 003_ENTITY_NAME : IEntityTypeConfiguration<004_ENTITY_NAME>
+    {
+        public void Configure(EntityTypeBuilder<004_ENTITY_NAME> builder)
+        {
+            005_CONFIGURE_CONTENT
+        }
+    }
+}
